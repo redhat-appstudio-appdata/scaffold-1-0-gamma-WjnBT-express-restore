@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ctlog-managectroots-0-6
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold-1-0-gamma/ctlog-managectroots-0-6@sha256:fbd11d7921c745e5a460adc3907cfd7fa7d70ad15b5789bcf89e15e5559756c8
+        name: my-go
+        resources: {}
+status: {}
