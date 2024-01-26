@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createctconfig-0-6
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold-1-0-gamma/createctconfig-0-6@sha256:246e4c673e90a5f96ad9391f96e811c8a99f432fd0cd7f18930d8ee7b7b20f1c
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold-1-0-gamma/createctconfig-0-6@sha256:2c96132697025f91dfdfd6b4d2376b9d6fb3231192647e9abcbf8239e8121c0d
         name: my-go
         ports:
         - containerPort: 8081
