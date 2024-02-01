@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold-1-0-gamma/createctconfig-0-6@sha256:b0bb9f010674b8075379f72b39e6c296add051b058bd901c96e6b2dc9960d6ca
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/scaffold-1-0-gamma/createctconfig-0-6@sha256:7c092072a13430c3305cd2de4416b07a442814577645b905fb01a32d20b63af6
         name: my-go
         resources: {}
 status: {}
