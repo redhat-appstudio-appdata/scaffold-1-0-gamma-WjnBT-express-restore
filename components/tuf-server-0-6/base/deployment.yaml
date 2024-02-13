@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: scaffold-1-0-gamma
   name: tuf-server-0-6
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
